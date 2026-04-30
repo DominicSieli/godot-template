@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://lh7pku551u03"]
+
+[node name="MainScene" type="Node" unique_id=713098966]
+
+[node name="World" type="Node2D" parent="." unique_id=1265108823]
+
+[node name="LevelLayer" type="Node2D" parent="World" unique_id=2133335285]
+
+[node name="Entities" type="Node2D" parent="World" unique_id=1451499456]
+
+[node name="Systems" type="Node" parent="." unique_id=309009976]
+
+[node name="SpawnManager" type="Node" parent="Systems" unique_id=187407348]
+
+[node name="HUDCanvas" type="CanvasLayer" parent="." unique_id=424848192]
+
+[node name="HUDRoot" type="Control" parent="HUDCanvas" unique_id=88760356]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PauseCanvas" type="CanvasLayer" parent="." unique_id=1991689432]
+
+[node name="PauseRoot" type="Control" parent="PauseCanvas" unique_id=614925219]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
